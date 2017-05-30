@@ -147,7 +147,7 @@ PLATFORMS
 DEPENDENCIES
   annotate
   byebug
-  devise_token_auth
+  devise_token_auth (~> 0.1.40)
   listen (>= 3.0.5, < 3.2)
   omniauth
   pg (~> 0.18)

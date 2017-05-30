@@ -33,7 +33,7 @@ class User < ActiveRecord::Base
          :rememberable,
          :trackable,
          :validatable,
-         :omniauthable\
+         :omniauthable
          
   include DeviseTokenAuth::Concerns::User
 end

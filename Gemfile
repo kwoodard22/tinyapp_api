@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'devise_token_auth'
+gem 'devise_token_auth', '~> 0.1.40'
 gem 'omniauth'
 gem 'rack-cors', :require => 'rack/cors'
 
